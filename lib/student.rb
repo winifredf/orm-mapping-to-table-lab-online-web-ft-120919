@@ -17,7 +17,7 @@ class Student
         grade INTEGER
         )
         SQL
-    DB [:conn].execute(sql)
+    DB[:conn].execute(sql)
   end
   
   def self.drop_table
@@ -28,6 +28,9 @@ class Student
         grade INTEGER
         )
         SQL
+    DB[:conn].execute(sql)
+    
+    
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]  
   

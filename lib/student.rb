@@ -22,7 +22,12 @@ class Student
   
   def self.drop_table
     sql = <<-SQL
-      
+      DROP TABLE IF NOT EXISTS songs (
+        id INTEGER PRIMARY KEY,
+        name TEXT
+        grade INTEGER
+        )
+        SQL
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]  
   

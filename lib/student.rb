@@ -38,8 +38,9 @@ class Student
     
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]  
-Student.create_table
-Student.new(name, grade)
+
+Students.create_table
+Students.new(name, grade)
 name.save
 grade.save  
 end

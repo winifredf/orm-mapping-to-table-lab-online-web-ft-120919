@@ -43,5 +43,9 @@ class Student
 end
 
 
+Students.create_table
+Students.new(name, grade)
+name.save
+grade.save 
 
 

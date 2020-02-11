@@ -39,10 +39,7 @@ class Student
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]  
 
-Students.create_table
-Students.new(name, grade)
-name.save
-grade.save  
+ 
 end
 
 

@@ -41,9 +41,6 @@ class Student
   
 end
 
-Student.create_table
-Student.new(name, grade)
-name.save
-grade.save
+
 
 
